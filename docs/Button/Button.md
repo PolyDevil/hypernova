@@ -11,7 +11,7 @@ title: Button
 
 ```tsx
 import React from 'react'
-import { Button } from '@rekamarket/sber-business-ui'
+import { Button } from '@polydevil/hypernova'
 
 export default () => (<div style={{ display: "grid", gap: 10 }}>
 	<Button color="warning">
@@ -30,7 +30,7 @@ export default () => (<div style={{ display: "grid", gap: 10 }}>
 
 ```tsx
 import React from 'react'
-import { Button } from '@rekamarket/sber-business-ui'
+import { Button } from '@polydevil/hypernova'
 
 export default () => (<div style={{ display: "grid", gap: 10 }}>
 	<Button size="xl">
@@ -51,20 +51,20 @@ export default () => (<div style={{ display: "grid", gap: 10 }}>
 </div>)
 ```
 
-## type
+## t
 
 ```tsx
 import React from 'react'
-import { Button } from '@rekamarket/sber-business-ui'
+import { Button } from '@polydevil/hypernova'
 
 export default () => (<div style={{ display: "grid", gap: 10 }}>
-	<Button type="primary">
+	<Button t="primary">
 		Кнопка
 	</Button>
-	<Button type="outline">
+	<Button t="outline">
 		Кнопка
 	</Button>
-	<Button type="transparent">
+	<Button t="transparent">
 		Кнопка
 	</Button>
 </div>)

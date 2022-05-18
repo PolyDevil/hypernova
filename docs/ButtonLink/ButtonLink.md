@@ -11,7 +11,7 @@ title: ButtonLink
 
 ```tsx
 import React from 'react'
-import { ButtonLink } from '@rekamarket/sber-business-ui'
+import { ButtonLink } from '@polydevil/hypernova'
 
 export default () => (<div style={{ display: "grid", gap: 10 }}>
 	<ButtonLink color="warning" href="https://hyper.nova">
@@ -30,7 +30,7 @@ export default () => (<div style={{ display: "grid", gap: 10 }}>
 
 ```tsx
 import React from 'react'
-import { ButtonLink } from '@rekamarket/sber-business-ui'
+import { ButtonLink } from '@polydevil/hypernova'
 
 export default () => (<div style={{ display: "grid", gap: 10 }}>
 	<ButtonLink size="xl" href="https://hyper.nova">
@@ -51,20 +51,20 @@ export default () => (<div style={{ display: "grid", gap: 10 }}>
 </div>)
 ```
 
-## type
+## t
 
 ```tsx
 import React from 'react'
-import { ButtonLink } from '@rekamarket/sber-business-ui'
+import { ButtonLink } from '@polydevil/hypernova'
 
 export default () => (<div style={{ display: "grid", gap: 10 }}>
-	<ButtonLink type="primary" href="https://hyper.nova">
+	<ButtonLink t="primary" href="https://hyper.nova">
 		Ссылка
 	</ButtonLink>
-	<ButtonLink type="outline" href="https://hyper.nova">
+	<ButtonLink t="outline" href="https://hyper.nova">
 		Ссылка
 	</ButtonLink>
-	<ButtonLink type="transparent" href="https://hyper.nova">
+	<ButtonLink t="transparent" href="https://hyper.nova">
 		Ссылка
 	</ButtonLink>
 </div>)
